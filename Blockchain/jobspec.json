@@ -1,0 +1,48 @@
+{
+    "name": "multi-word",
+    "initiators": [
+      {
+        "id": 3,
+        "jobSpecId": "64566152-8ea4-4aa7-b137-ed9f9d54c3d5",
+        "type": "runlog",
+        "params": {
+          "address": "0xc57b33452b4f7bb189bb5afae9cc4aba1f7a4fd8"
+        }
+      }
+    ],
+    "tasks": [
+      {
+        "jobSpecId": "645661528ea44aa7b137ed9f9d54c3d5",
+        "type": "upload-meta-data",
+        
+      },
+      {
+        "jobSpecId": "645661528ea44aa7b137ed9f9d54c3d5",
+        "type": "jsonparse",
+        "params": {
+          "path": [
+            "url"
+          ]
+        }
+      },
+     
+      {
+        "jobSpecId": "645661528ea44aa7b137ed9f9d54c3d5",
+        "type": "resultcollect"
+      },
+      {
+        "jobSpecId": "645661528ea44aa7b137ed9f9d54c3d5",
+        "type": "ethtx",
+        "confirmations": 1,
+        "params": {
+          "abiEncoding": [
+            "bytes32",
+            "bytes32",
+            "bytes32",
+            "bytes32"
+          ]
+        }
+      }
+    ]
+  }
+  

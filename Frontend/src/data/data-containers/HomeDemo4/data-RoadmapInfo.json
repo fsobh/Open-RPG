@@ -1,0 +1,39 @@
+[
+    
+    {
+        "month":"Initial",
+        "year":"Supply",
+        "title":"Initial Supply",
+        "description" : "The initial 10,000 items minted, fixed amounts of rare items, a guaranteed shot at the best items in the game for those willing to pay."
+    },
+    {
+        "month":"Minted",
+        "year":"10%",
+        "title":"10% minted",
+        "description" : "Early adopters (people who already own one or more OpenRPG items) get access to an exclusive merch-drop."
+    },
+    {
+        "month":"Minted",
+        "year":"25%",
+        "title":"25% minted",
+        "description" : "Limited run of one-off weapons become available. These will be extreme variations such as exploding hammers made from dragon testicles and other equally ridiculous overpowered gear."
+    },
+    {
+        "month":"Minted",
+        "year":"50%",
+        "title":"50% minted",
+        "description" : "We develop the first game to actually utilize the OpenRPG system as a proof of concept. Players will be able to pit their barbarians, warriors, mages, and bards against each other in brutal fights to the death."
+    },
+    {
+        "month":"Minted",
+        "year":"75%",
+        "title":"75% minted",
+        "description" : "At this point we can begin development on the real heart of this project. A virtual-reality arena and dungeon crawler for players to make use of their items. Players will be able to stake their loot and in-game currency on battles with each other. In addition to the competitive aspect the game will have robust lobbies and low-stakes environments to buy, trade, and show off their NFTs. Both PvE and PvP scenarios will be created–robust dungeons for players to traverse alone and together in search of more gear. Our most active and talented players will even be able to find rare loot in game to trade and sell for crypto in the real world."
+    },
+    {
+        "month":"Minted",
+        "year":"100%",
+        "title":"100% minted",
+        "description" : "We release even more extremely limited edition NFTs. Those who have invested the most into OpenRPG will be given the opportunity to help design NFTs that honor them and their contribution to the project. Once all 10k of the initial run are minted, the organic process of minting and burning can begin. Users will be able to burn their items for a chance at creating better (more rare) ones."
+    }
+]

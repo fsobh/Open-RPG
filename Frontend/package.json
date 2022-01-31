@@ -1,0 +1,85 @@
+{
+  "name": "profileapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@metamask/onboarding": "^1.0.1",
+    "@popperjs/core": "^2.9.3",
+    "@portis/web3": "^4.0.6",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@toruslabs/torus-embed": "^1.18.4",
+    "@walletconnect/client": "^1.6.6",
+    "@walletconnect/qrcode-modal": "^1.6.6",
+    "@walletconnect/web3-provider": "^1.6.6",
+    "aos": "^2.3.4",
+    "authereum": "^0.1.14",
+    "axios": "^0.24.0",
+    "bitski": "^0.11.0-beta.5",
+    "bootstrap": "^5.1.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.5.3",
+    "fortmatic": "^2.2.1",
+    "framer-motion": "^4.1.17",
+    "javascript-time-ago": "^2.3.10",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "rc-progress": "^3.1.4",
+    "react": "^17.0.2",
+    "react-countup": "^6.0.0",
+    "react-dom": "^17.0.2",
+    "react-fancy-countdown": "^1.0.3",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^7.2.6",
+    "react-responsive-carousel": "^3.2.21",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.11.0",
+    "react-time-ago": "^7.1.4",
+    "react-toastify": "^8.1.0",
+    "react-twitter-widgets": "^1.10.0",
+    "react-typed": "^1.2.0",
+    "redux": "^4.1.2",
+    "sass": "^1.42.0",
+    "styled-components": "^5.3.3",
+    "sweetalert2-react": "^0.8.3",
+    "swiper": "^6.7.0",
+    "trezor-connect": "^8.2.3",
+    "walletlink": "^2.2.10",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.6.1",
+    "web3data-js": "^0.7.5",
+    "web3modal": "^1.9.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

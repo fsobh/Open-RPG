@@ -1,0 +1,8 @@
+{
+    "name": "Open RPG",
+    "description": "A set of Delationary Weapons  in the Metaverse. ",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeBYCwrM5XgnhADgicXRncnTL5a1X4n9zfrYZgSmrbAzt",
+    "external_link": "https://beta.openrpg.link",
+    "seller_fee_basis_points": 500,  
+    "fee_recipient": "0x642dC956a520BbF8A76fc1ec70B2515a8f0A4f89" 
+  }

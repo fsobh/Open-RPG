@@ -1,0 +1,22 @@
+[
+    {
+        "text":"What are the objectives of this Project?",
+        "ID":"Text1",
+        "description" : "Utilize the blockchain to attach real world value to in-game items. Allow players to move their assets from game to game. Create a plug-and-play solution for developers to integrate OpenRPG assets in their games."
+    },
+    {
+        "text":"What is the best features and services we deiver?",
+        "ID":"Text2",
+        "description" :"The proof-of-concept character-battle game we are building along with our full fledged RPG experience, the fact that any developer can integrate OpenRPG into their game free-of-charge, our high-quality art assets, and many more…"
+    },
+    {
+        "text":"Why OpenRPG is important to me?",
+        "ID":"Text3",
+        "description" : "OpenRPG works to solve an important problem in the way games are currently monetized. While established players in the industry work to integrate NFTs in a way that will not be open, offers no agency on the part of the player, and will only serve to clog up the blockchain and exploit the most vulnerable in the gaming community, we aim higher. We are making our own games as a proof-of-concept, but our hope is that our platform can serve as a building block for developers."
+    },
+    {
+        "text":"How can I mint items?",
+        "ID":"Text4",
+        "description" : "Just visit our portal and follow the instructions to link your wallet and begin minting!"
+    }
+]

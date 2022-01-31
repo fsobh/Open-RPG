@@ -1,0 +1,7 @@
+Frontend/node_modules
+Backend/.serverless/
+Backend/node_modules
+Blockchain/node_modules
+Blockchain/.env
+Blockchain/artifacts
+

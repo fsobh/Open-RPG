@@ -1,0 +1,20 @@
+[
+
+	{
+		"path":"#faq",
+		"nameLink":"FAQ"
+	},
+	{
+		"path":"#roadmap",
+		"nameLink":"Roadmap"
+	},
+	{
+		"path":"#blog",
+		"nameLink":"News"
+	},
+	{
+		"path":"#social",
+		"nameLink":"Social"
+	}
+	
+]

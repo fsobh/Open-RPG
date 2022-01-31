@@ -1,0 +1,91 @@
+# Welcome to Serverless!
+#
+# This file is the main config file for your service.
+# It's very minimal at this point and uses default values.
+# You can always add more config options for more control.
+# We've included some commented out config examples here.
+# Just uncomment any of them to get that config option.
+#
+# For full config options, check the docs:
+#    docs.serverless.com
+#
+# Happy Coding!
+
+service: backend-2
+# app and org for use with dashboard.serverless.com
+#app: your-app-name
+#org: your-org-name
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  lambdaHashingVersion: 20201221
+  region: us-east-2
+  memorySize: 2524
+  logRetentionInDays: 7
+  stage: ${opt:stage, self:custom.defaultStage}
+  environment:
+    NODE_ENV: ${self:provider.stage}
+    PROJECT_CODE: OPEN-RPG
+    S3_ACCESS_ID: ${ssm:s3-access-id~true}
+    S3_ACCESS_SECRET: ${ssm:s3-access-secret~true}
+    LD_PRELOAD: /var/task/node_modules/canvas/build/Release/libz.so.1
+    OPEN_RPG_DISCORD_WEBHOOK: ${ssm:OPEN_RPG_DISCORD_WEBHOOK~true}
+    PINATA_KEY: ${ssm:PINATA_KEY~true}
+    PINATA_SECRET: ${ssm:PINATA_SECRET~true}
+    OPEN_RPG_BUCKET_NAME : ${ssm:OPEN_RPG_BUCKET_NAME~true}
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "logs:*"
+      Resource: "*"
+    - Effect: "Allow"
+      Action:
+        - "s3:*"
+      Resource: "*"  
+    - Effect: "Allow"
+      Action:
+        - "dynamodb:*"
+      Resource: "*"
+    - Effect: "Allow"
+      Action:
+        - "sns:*"
+      Resource: "*"
+    - Effect: "Allow"
+      Action:
+        - "ses:*"
+      Resource: "*"
+    - Effect: "Allow"
+      Action: "ssm:GetParameters"
+      Resource: "*"
+    - Effect: "Allow"
+      Action: "kms:Decrypt"
+      Resource: "*" 
+
+	
+
+package:
+  exclude:
+    - node_modules/**
+
+custom:
+  serviceName: OPEN-RPG-DOCKER-2
+  defaultStage: dev
+  
+    
+
+functions:
+  generateMetaDataFile:
+    name: ${self:custom.serviceName}-${self:provider.stage}-generate-metadata
+    image: 097507818192.dkr.ecr.us-east-2.amazonaws.com/open-rpg-docker@sha256:3848c6cd2fc730b10577f160708eab2b2aabe161c0034b86d92ed8a5f1eb75fa
+    timeout: 900
+    memorySize : 2524
+    events:
+      - http:
+          path: /metadata
+          method: post
+          cors: true

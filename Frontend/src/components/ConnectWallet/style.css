@@ -1,0 +1,12 @@
+.connectButton {
+background: #1488CC;
+
+
+color :#ffff;
+    
+  
+}
+
+.hideScroll::-webkit-scrollbar {
+    display: none;
+  }
