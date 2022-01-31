@@ -14,12 +14,10 @@
 
 ---
 
-## The new starting point for NFT game development and integration
+## Open RPG
 
-OpenRPG is a way to get Game developers kicked off at integrating game characters, stats, and items as Non-Fungible tokens that can be traded between players on the blockchain
+OpenRPG is a system for blockchain based videogame items (as Non-Fungible Tokens) based on the classic archetypes of everyone’s favorite tabletop fantasy role-playing-games. Join our adventure into the Meta-verse today!
 
-
-** ADD MORE DESCRIPTION HERE **
 
 **Installation Instructions:**
 
@@ -29,55 +27,14 @@ OpenRPG is a way to get Game developers kicked off at integrating game character
 
 ######      2. Run   `npm install`
 
+######      3. Create a `.env` file in the root directory of this code portion (/Blockchain) and paste your wallets Private Key. (MAKE SURE ITS INCLUDED IN .gitignore before pushing)
 
-######      3. Create a `.env` file in the root directory of this code portion (/MiNtFT) and paste your wallets Private Key. (MAKE SURE ITS INCLUDED IN .gitignore before pushing)
-
-######      4. MAKE SURE YOUR WALLET HAS ETH IN IT ON RINKEBY NETWORK ; USE THE [Rinkeby Eth Faucet](https://faucet.rinkeby.io/) TO GET FREE TEST ETH 
+######      4. MAKE SURE YOUR WALLET HAS ETH IN IT ON RINKEBY NETWORK ; USE THE [Rinkeby Eth Faucet](https://faucets.chain.link/rinkeby) TO GET FREE TEST ETH 
 
 
 ######      5. Run `npx hardhat run --network rinkeby scripts/deploy.js` to deploy the smart contarct to Test net
 
-
 --------------------------------------
 
-***Front End***  :
-------------------------------------
-######       1. `cd Frontend`
 
-######       2. Run   `npm install`
-
-######       3. Make sure you have Meta mask extension downloaded and connected to the Ethereum Rinkeby Network
-
-######       4. Make sure the /src/contracts directory exists and contains the required ABI files generated durring contract deployment (Only required for Mint functionality)
-
-######       5. Run `npm start`
-   
-
-
----
-
-<h2>
-    Browser Support
-</h2>
-<p>
-    We're supporting the last two versions of the following browsers:
-</p>
-<p>
-<img src="https://demo.uifort.com/github-assets/browsers/chrome.png" width="64" height="64"> <img src="https://demo.uifort.com/github-assets/browsers/firefox.png" width="64" height="64"> <img src="https://i1.wp.com/bitcoinreviewsguide.com/wp-content/uploads/2020/04/brave-broswer-icon.jpg?fit=485%2C483&ssl=1" width="64" height="64">
-
----
-
-### Social Media
-
-<p>Follow us on any of our social media accounts to find out when we release new products or updates.</p>
-
-<p><b>Twitter: </b><a href="#">____</a></p>
-
-<p><b>Discord: </b><a href="#">___</a></p>
-
-<p><b>Github: </b><a href="#">___</a></p>
-
-<p><b>Telegram: </b><a href="#">___</a></p>
-
-### Visit our [website](https://nftsforsale.com) 
 
